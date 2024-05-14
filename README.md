@@ -1,25 +1,42 @@
 # Aigency API Client Library
 
-Bu kütüphane, Aigency API ile etkileşim kurmanızı sağlar.
+Aigency API Client Library, Aigency API ile kolay ve etkili bir şekilde etkileşim kurmanızı sağlar.
 
 ## Kurulum
 
-İndirdiğiniz klasöre giriş yapın.
+Aşağıdaki adımları takip ederek kütüphaneyi kurabilirsiniz:
 
-Terminalden "python -m venv env" komutu ile venv oluşturun ardından "source env/bin/activate" komutu ile aktif hale getirin.
+1. İndirdiğiniz klasöre giriş yapın:
+    ```sh
+    cd aigency_api
+    ```
 
-pip yada pip3 install build ile build isimli modülü yükleyin. Yükleme işleminden sonra terminale "python yada python3 -m build" yazarak dosyaları paket haline getirin.
+2. `README.md` dosyasını silin ve `Paket-README.md` dosyasının adını `README.md` olarak değiştirin:
+    ```sh
+    rm README.md
+    mv Paket-README.md README.md
+    ```
 
-Paketi yüklemek için aşağıdaki pip komutunu kullanın:
+3. Bir sanal ortam (virtual environment) oluşturun ve aktif hale getirin:
+    ```sh
+    python -m venv env
+    source env/bin/activate
+    ```
 
-pip install dist/aigency_api-0.1.0-py3-none-any.whl
+4. Gerekli modülü yükleyin ve dosyaları paket haline getirin:
+    ```sh
+    pip install build
+    python -m build
+    ```
+
+5. Paketi yüklemek için aşağıdaki komutu kullanın:
+    ```sh
+    pip install dist/aigency_api-0.1.0-py3-none-any.whl
+    ```
 
 ## Kullanım
 
-Komut satırında:
+Komut satırında kütüphaneyi aşağıdaki gibi kullanabilirsiniz:
 
+```sh
 aigency_api
-
-## Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır.
