@@ -1,17 +1,19 @@
-# AIGENCY API Client Library
+# Aigency API Client Library
 
-AIGENCY API Client Library, AIGENCY API ile etkileşim kurmanıza olanak tanıyan bir Python kütüphanesidir. Bu kütüphane, kullanıcıların AIGENCY'nin AI ekipleriyle kolayca iletişim kurmasını, yeni sohbetler başlatmasını ve mevcut sohbetleri yönetmesini sağlar.
-
-[Detaylı dokümantasyon için buraya tıklayın.](https://aigency.dev/doc/)
+Bu kütüphane, Aigency API ile etkileşim kurmanızı sağlar.
 
 ## Kurulum
 
-### .whl Dosyasını Yükleme
+Paketi yüklemek için aşağıdaki pip komutunu kullanın:
 
-Kütüphaneyi yüklemek için aşağıdaki adımları izleyin:
+pip install dist/aigency_api-0.1.0-py3-none-any.whl
 
-1. Terminal veya komut istemcisini açın.
-2. Aşağıdaki komutu kullanarak .whl dosyasını yükleyin:
+## Kullanım
 
-```bash
-pip install aigency_api-0.1.0-py3-none-any.whl
+Komut satırında:
+
+aigency_api
+
+## Lisans
+
+Bu proje MIT lisansı altında lisanslanmıştır.
