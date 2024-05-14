@@ -14,4 +14,4 @@ Kütüphaneyi yüklemek için aşağıdaki adımları izleyin:
 2. Aşağıdaki komutu kullanarak .whl dosyasını yükleyin:
 
 ```bash
-pip install /aigency_api-0.1.0-py3-none-any.whl
+pip install aigency_api-0.1.0-py3-none-any.whl
