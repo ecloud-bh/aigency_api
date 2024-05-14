@@ -2,6 +2,8 @@
 
 AIGENCY API Client Library, AIGENCY API ile etkileşim kurmanıza olanak tanıyan bir Python kütüphanesidir. Bu kütüphane, kullanıcıların AIGENCY'nin AI ekipleriyle kolayca iletişim kurmasını, yeni sohbetler başlatmasını ve mevcut sohbetleri yönetmesini sağlar.
 
+[Geniş dokümasyon için buraya tıklayın.](https://aigency.dev/doc/)
+
 ## Kurulum
 
 ### .whl Dosyasını Yükleme
